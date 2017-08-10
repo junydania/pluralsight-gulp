@@ -15,7 +15,7 @@
         vm.isUnchanged = isUnchanged;
         vm.getFullName = getFullName;
         vm.save = save;
-        vm.title = 'Customer Detail';
+        vm.title= 'Customer Detail';
 
         activate();
 
@@ -26,7 +26,7 @@
         }
 
         function cancel() {
-            vm.customer = angular.copy(vm.original);
+            vm.customer= angular.copy(vm.original);
         }
 
         function getCustomer(id) {
